@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+}
+
+.nav {
+  width: 100%;
+  height: 70px;
+  background-color: #f5f5f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.image {
+  width: 130px;
+  height: 35px;
+}
+
+.texts {
+  display: flex;
+  gap: 60px;
+}
+
+.text {
+  color: #959ba4;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.text-first {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button {
+  width: 75px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+
+.two-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+
+h1 {
+  font-size: 45px;
+  display: flex;
+}
+
+.some-text {
+  font-size: 15px;
+  color: #9f9f9f;
+}
+
+.money-button {
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #c6c6c6;
+  color: #c6c6c6;
+  cursor: pointer;
+}
+
+.money-button-1 {
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #c6c6c6;
+  color: #c6c6c6;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  cursor: pointer;
+}
+
+.money-button-4 {
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #c6c6c6;
+  color: #c6c6c6;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  cursor: pointer;
+}
+
+.right-nav,
+.left-nav {
+  display: flex;
+  gap: 0;
+}
+
+.input {
+  width: 320px;
+  height: 130px;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.convertor-1 {
+  position: absolute;
+  top: 49%;
+  left: 24%;
+  font-size: 15px;
+  color: #c6c6c6;
+}
+
+.convertor-2 {
+  position: absolute;
+  top: 49%;
+  left: 54%;
+  font-size: 15px;
+  color: #c6c6c6;
+}
+
+.text-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right-side,
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
