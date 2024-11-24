@@ -171,7 +171,7 @@ h1 {
   display: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 500px) {
+@media screen and (min-width: 320px) and (max-width: 400px) {
   .nav {
     width: 100%;
     padding: 20px 30px;
@@ -262,16 +262,16 @@ h1 {
 
   .convertor-1 {
     position: absolute;
-    top: 51%;
-    left: 10%;
+    top: 356px;
+    left: 33px;
     font-size: 15px;
     color: #c6c6c6;
   }
 
   .convertor-2 {
     position: absolute;
-    top: 86%;
-    left: 10%;
+    top: 602px;
+    left: 33px;
     font-size: 15px;
     color: #c6c6c6;
   }
@@ -289,5 +289,816 @@ h1 {
 
   .text-nav {
     gap: 10px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 501px) {
+  .nav {
+    width: 100%;
+    padding: 20px 40px;
+    gap: 30px;
+  }
+
+  .image {
+    width: 90px;
+    height: 30px;
+  }
+
+  .texts {
+    display: none;
+  }
+
+  .icon {
+    display: inline;
+  }
+
+  .iconn {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .button {
+    min-width: 80px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .container {
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .two-side {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .some-text {
+    font-size: 18px;
+  }
+
+  .money-button-2,
+  .money-button-3 {
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .money-button-1 {
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .money-button-4 {
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .right-nav,
+  .left-nav {
+    display: flex;
+    gap: 0;
+  }
+
+  .input {
+    width: 360px;
+    height: 120px;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .convertor-1 {
+    position: absolute;
+    top: 398px;
+    left: 34px;
+    font-size: 15px;
+    color: #c6c6c6;
+  }
+
+  .convertor-2 {
+    position: absolute;
+    top: 675px;
+    left: 34px;
+    font-size: 15px;
+    color: #c6c6c6;
+  }
+
+  .text-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .right-side,
+  .left-side {
+    gap: 35px;
+  }
+
+  .text-nav {
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 502px) and (max-width: 601px) {
+  .nav {
+    width: 100%;
+    padding: 20px 40px;
+    gap: 30px;
+  }
+
+  .image {
+    width: 100px;
+    height: 30px;
+  }
+
+  .texts {
+    display: none;
+  }
+
+  .icon {
+    display: inline;
+  }
+
+  .iconn {
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .button {
+    min-width: 90px;
+    height: 45px;
+    font-size: 17px;
+  }
+
+  .container {
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .two-side {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .some-text {
+    font-size: 20px;
+  }
+
+  .money-button-2,
+  .money-button-3 {
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .money-button-1 {
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .money-button-4 {
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .right-nav,
+  .left-nav {
+    display: flex;
+    gap: 0;
+  }
+
+  .input {
+    width: 400px;
+    height: 140px;
+    font-size: 38px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .convertor-1 {
+    position: absolute;
+    top: 430px;
+    left: 45px;
+    font-size: 20px;
+    color: #c6c6c6;
+  }
+
+  .convertor-2 {
+    position: absolute;
+    top: 732px;
+    left: 45px;
+    font-size: 20px;
+    color: #c6c6c6;
+  }
+
+  .text-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .right-side,
+  .left-side {
+    gap: 35px;
+  }
+
+  .text-nav {
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 602px) and (max-width: 701px) {
+  .nav {
+    width: 100%;
+    padding: 20px 40px;
+    gap: 30px;
+  }
+
+  .image {
+    width: 100px;
+    height: 30px;
+  }
+
+  .texts {
+    display: none;
+  }
+
+  .icon {
+    display: inline;
+  }
+
+  .iconn {
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .button {
+    min-width: 90px;
+    height: 45px;
+    font-size: 17px;
+  }
+
+  .container {
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .two-side {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .some-text {
+    font-size: 20px;
+  }
+
+  .money-button-2,
+  .money-button-3 {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .money-button-1 {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .money-button-4 {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .right-nav,
+  .left-nav {
+    display: flex;
+    gap: 0;
+  }
+
+  .input {
+    width: 480px;
+    height: 160px;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+
+  .convertor-1 {
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    font-size: 20px;
+    color: #c6c6c6;
+  }
+
+  .convertor-2 {
+    position: absolute;
+    top: 780px;
+    left: 50px;
+    font-size: 20px;
+    color: #c6c6c6;
+  }
+
+  .text-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .right-side,
+  .left-side {
+    gap: 35px;
+  }
+
+  .text-nav {
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 702px) and (max-width: 801px) {
+  .nav {
+    width: 100%;
+    padding: 20px 40px;
+    gap: 30px;
+  }
+
+  .image {
+    width: 120px;
+    height: 35px;
+  }
+
+  .texts {
+    display: none;
+  }
+
+  .icon {
+    display: inline;
+  }
+
+  .iconn {
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .button {
+    min-width: 100px;
+    height: 45px;
+    font-size: 17px;
+  }
+
+  .container {
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .two-side {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .some-text {
+    font-size: 25px;
+  }
+
+  .money-button-2,
+  .money-button-3 {
+    width: 150px;
+    height: 55px;
+    font-size: 25px;
+  }
+
+  .money-button-1 {
+    width: 150px;
+    height: 55px;
+    font-size: 25px;
+  }
+
+  .money-button-4 {
+    width: 150px;
+    height: 55px;
+    font-size: 25px;
+  }
+
+  .right-nav,
+  .left-nav {
+    display: flex;
+    gap: 0;
+  }
+
+  .input {
+    width: 600px;
+    height: 200px;
+    font-size: 45px;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+
+  .convertor-1 {
+    position: absolute;
+    top: 504px;
+    left: 50px;
+    font-size: 25px;
+    color: #c6c6c6;
+  }
+
+  .convertor-2 {
+    position: absolute;
+    top: 889px;
+    left: 50px;
+    font-size: 25px;
+    color: #c6c6c6;
+  }
+
+  .text-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .right-side,
+  .left-side {
+    gap: 35px;
+  }
+
+  .text-nav {
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 802px) and (max-width: 901px) {
+  .nav {
+    width: 100%;
+    padding: 20px 40px;
+    gap: 30px;
+  }
+
+  .image {
+    width: 120px;
+    height: 35px;
+  }
+
+  .texts {
+    display: none;
+  }
+
+  .icon {
+    display: inline;
+  }
+
+  .iconn {
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .button {
+    min-width: 100px;
+    height: 45px;
+    font-size: 17px;
+  }
+
+  .container {
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .two-side {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .some-text {
+    font-size: 25px;
+  }
+
+  .money-button-2,
+  .money-button-3 {
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  .money-button-1 {
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  .money-button-4 {
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  .right-nav,
+  .left-nav {
+    display: flex;
+    gap: 0;
+  }
+
+  .input {
+    width: 720px;
+    height: 250px;
+    font-size: 50px;
+    padding-top: 3px;
+    padding-left: 15px;
+  }
+
+  .convertor-1 {
+    position: absolute;
+    top: 560px;
+    left: 50px;
+    font-size: 25px;
+    color: #c6c6c6;
+  }
+
+  .convertor-2 {
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+    font-size: 25px;
+    color: #c6c6c6;
+  }
+
+  .text-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .right-side,
+  .left-side {
+    gap: 35px;
+  }
+
+  .text-nav {
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 902px) and (max-width: 991px) {
+  .nav {
+    width: 100%;
+    padding: 20px 40px;
+    gap: 30px;
+  }
+
+  .image {
+    width: 120px;
+    height: 35px;
+  }
+
+  .texts {
+    display: none;
+  }
+
+  .icon {
+    display: inline;
+  }
+
+  .iconn {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .button {
+    min-width: 100px;
+    height: 45px;
+    font-size: 17px;
+  }
+
+  .container {
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .two-side {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .some-text {
+    font-size: 30px;
+  }
+
+  .money-button-2,
+  .money-button-3 {
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+  }
+
+  .money-button-1 {
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+  }
+
+  .money-button-4 {
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+  }
+
+  .right-nav,
+  .left-nav {
+    display: flex;
+    gap: 0;
+  }
+
+  .input {
+    width: 800px;
+    height: 270px;
+    font-size: 55px;
+    padding-top: 3px;
+    padding-left: 15px;
+  }
+
+  .convertor-1 {
+    position: absolute;
+    top: 632px;
+    left: 50px;
+    font-size: 30px;
+    color: #c6c6c6;
+  }
+
+  .convertor-2 {
+    position: absolute;
+    top: 1144px;
+    left: 50px;
+    font-size: 30px;
+    color: #c6c6c6;
+  }
+
+  .text-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .right-side,
+  .left-side {
+    gap: 50px;
+  }
+
+  .text-nav {
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  .nav {
+    width: 100%;
+    padding: 20px 80px;
+    gap: 30px;
+  }
+
+  .image {
+    width: 110px;
+    height: 35px;
+  }
+
+  .texts {
+    display: flex;
+    gap: 20px;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  .text-first {
+    font-size: 13px;
+  }
+
+  .button {
+    min-width: 90px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .container {
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .two-side {
+    display: flex;
+    gap: 120px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .some-text {
+    font-size: 20px;
+  }
+
+  .money-button-2,
+  .money-button-3 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .money-button-1 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .money-button-4 {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .right-nav,
+  .left-nav {
+    display: flex;
+    gap: 0;
+  }
+
+  .input {
+    width: 360px;
+    height: 180px;
+    font-size: 35px;
+    padding-top: 3px;
+    padding-left: 15px;
+  }
+
+  .convertor-1 {
+    position: absolute;
+    top: 495px;
+    left: 63px;
+    font-size: 20px;
+    color: #c6c6c6;
+  }
+
+  .convertor-2 {
+    position: absolute;
+    top: 495px;
+    left: 547px;
+    font-size: 20px;
+    color: #c6c6c6;
+  }
+
+  .text-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .right-side,
+  .left-side {
+    gap: 50px;
+  }
+
+  .text-nav {
+    gap: 20px;
   }
 }
