@@ -4,6 +4,7 @@ const leftInput = document.querySelector(".input.left-input");
 const rightInput = document.querySelector(".input.right-input");
 const leftText = document.querySelector(".convertor-1");
 const rightText = document.querySelector(".convertor-2");
+const errorMessage = document.querySelector(".error-message");
 
 let leftCurrency = "RUB";
 let rightCurrency = "USD";
@@ -30,9 +31,10 @@ fetch("https://v6.exchangerate-api.com/v6/8c0c83aa088837201b15259e/latest/USD")
     exchangeRates = data.conversion_rates;
     console.log("Valyuta məlumatları API-dən:", exchangeRates);
     updateConversionTexts();
+    errorMessage.textContent = "";
   })
   .catch(() => {
-    showErrorMessage("Internet yoxdur! Xahiş edirik, bağlantınızı yoxlayın.");
+    showErrorMessage("İnternet yoxdur! Xahiş edirik, bağlantınızı yoxlayın.");
   });
 
 leftButtons.forEach((button) => {
@@ -54,38 +56,47 @@ rightButtons.forEach((button) => {
 });
 
 leftInput.addEventListener("input", () => {
+  leftInput.value = removeLeadingZeros(leftInput.value);
   validateAndFormatInput(leftInput);
   convertFromLeft();
 });
 
 rightInput.addEventListener("input", () => {
+  rightInput.value = removeLeadingZeros(rightInput.value);
   validateAndFormatInput(rightInput);
   convertFromRight();
 });
 
 function convertFromLeft() {
   if (!exchangeRates[leftCurrency] || !exchangeRates[rightCurrency]) return;
-  const leftValue = parseFloat(leftInput.value.replace(",", ".")) || 0;
+  const leftValue = parseFloat(leftInput.value) || 0;
   const rate = exchangeRates[rightCurrency] / exchangeRates[leftCurrency];
-  rightInput.value = (leftValue * rate).toFixed(5).replace(".", ",");
+  rightInput.value = (leftValue * rate).toFixed(5);
 }
 
 function convertFromRight() {
   if (!exchangeRates[leftCurrency] || !exchangeRates[rightCurrency]) return;
-  const rightValue = parseFloat(rightInput.value.replace(",", ".")) || 0;
+  const rightValue = parseFloat(rightInput.value) || 0;
   const rate = exchangeRates[leftCurrency] / exchangeRates[rightCurrency];
-  leftInput.value = (rightValue * rate).toFixed(5).replace(".", ",");
+  leftInput.value = (rightValue * rate).toFixed(5);
 }
 
 function validateAndFormatInput(input) {
-  let value = input.value.replace(",", ".");
-  value = value.replace(/[^0-9.]/g, "");
+  let value = input.value;
 
+  value = value.replace(",", ".").replace(/[^0-9.]/g, "");
+  value = value.replace(/^(\d*\.\d*).*$/, "$1");
   const parts = value.split(".");
+
+  if (parts.length > 2) {
+    value = parts[0] + "." + parts[1];
+  }
+
   if (parts[1] && parts[1].length > 5) {
     parts[1] = parts[1].slice(0, 5);
   }
-  input.value = parts.join(".").replace(".", ",");
+
+  input.value = parts.join(".");
 }
 
 function updateConversionTexts() {
@@ -118,5 +129,13 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function showErrorMessage(message) {
-  alert(message);
+  errorMessage.textContent = message;
+}
+
+function removeLeadingZeros(value) {
+  value = value.replace(/^0+/, "0");
+  if (value.startsWith("0") && value[1] !== "." && value.length > 1) {
+    value = value.substring(1);
+  }
+  return value;
 }
