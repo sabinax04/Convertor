@@ -187,6 +187,20 @@ h1 {
     display: none;
   }
 
+  .texts.show {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    z-index: 10;
+  }
+
   .icon {
     display: inline;
   }
@@ -308,6 +322,20 @@ h1 {
     display: none;
   }
 
+  .texts.show {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    z-index: 10;
+  }
+
   .icon {
     display: inline;
   }
@@ -422,6 +450,20 @@ h1 {
 
   .texts {
     display: none;
+  }
+
+  .texts.show {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+    right: 90px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    z-index: 10;
   }
 
   .icon {
@@ -540,6 +582,20 @@ h1 {
     display: none;
   }
 
+  .texts.show {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+    right: 130px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    z-index: 10;
+  }
+
   .icon {
     display: inline;
   }
@@ -654,6 +710,20 @@ h1 {
 
   .texts {
     display: none;
+  }
+
+  .texts.show {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+    right: 170px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    z-index: 10;
   }
 
   .icon {
@@ -772,6 +842,20 @@ h1 {
     display: none;
   }
 
+  .texts.show {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+    right: 210px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    z-index: 10;
+  }
+
   .icon {
     display: inline;
   }
@@ -886,6 +970,20 @@ h1 {
 
   .texts {
     display: none;
+  }
+
+  .texts.show {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+    right: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    z-index: 10;
   }
 
   .icon {
